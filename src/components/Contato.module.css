@@ -5,7 +5,7 @@
 }
 
 .dados {
-  padding: 0;
+  padding: 0px;
   list-style: none;
 }
 
@@ -16,10 +16,10 @@
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 20px;
   height: 2px;
-  background-color: #ddd;
+  background: #ddd;
   margin-right: 10px;
 }
